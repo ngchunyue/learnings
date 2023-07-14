@@ -1,0 +1,5 @@
+import pandas as pd
+
+input = pd.read_csv("dictionary/MSTAR_EMERGING_MARKETS_FACTOR_TILT_P000000114_OCON_20230703.csv")
+input_dataFrame = input.pd.DataFrame
+print(input.head())
