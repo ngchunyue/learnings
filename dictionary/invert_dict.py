@@ -40,6 +40,6 @@ def invert_dict(lunch_option: dict) -> dict:
 
 
 
+inverted_dictionary = invert_dict(lunch_option)
 
-
-print(invert_dict(lunch_option))
+print(inverted_dictionary)
