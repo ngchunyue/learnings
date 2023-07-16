@@ -18,10 +18,6 @@ print(lunch_option.items())
 
 
 
-
-
-
-
 # def invert_dict(lunch_option: dict) -> dict:
 #     for old_key in lunch_option.keys():
         
@@ -31,13 +27,11 @@ print(lunch_option.items())
 
 
 
-
 def invert_dict(lunch_option: dict) -> dict:
     inverted_lunch_option = {val: key for (key, val) in lunch_option.items()}
 
 
     return inverted_lunch_option
-
 
 
 inverted_dictionary = invert_dict(lunch_option)
